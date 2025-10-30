@@ -15,7 +15,7 @@ export default function Youtube() {
         if (data.items && data.items.length > 0) {
           setChannel(data.items[0])
         }
-      } catch (e) {
+      } catch (e) { 
         console.log(e)
       }
     }
